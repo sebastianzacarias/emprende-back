@@ -5,11 +5,12 @@
   "author": "Diego Sebastian <sebastianzacarias03@gmail.com>",
   "license": "MIT",
   "private": false,
-  "scripts":{
+  "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js"
   },
   "devDependencies": {
+    "dotenv": "^16.3.1",
     "nodemon": "^3.0.1"
   }
 }
